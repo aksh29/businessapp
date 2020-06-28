@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/aksh29/businessapp/static/css/main.2f912210.chunk.css",
+    "main.js": "/aksh29/businessapp/static/js/main.bacdff6c.chunk.js",
+    "main.js.map": "/aksh29/businessapp/static/js/main.bacdff6c.chunk.js.map",
+    "runtime-main.js": "/aksh29/businessapp/static/js/runtime-main.4c24cc31.js",
+    "runtime-main.js.map": "/aksh29/businessapp/static/js/runtime-main.4c24cc31.js.map",
+    "static/js/2.1e5d13bc.chunk.js": "/aksh29/businessapp/static/js/2.1e5d13bc.chunk.js",
+    "static/js/2.1e5d13bc.chunk.js.map": "/aksh29/businessapp/static/js/2.1e5d13bc.chunk.js.map",
+    "index.html": "/aksh29/businessapp/index.html",
+    "precache-manifest.39dfe885805e9849bc998c27d48d7b06.js": "/aksh29/businessapp/precache-manifest.39dfe885805e9849bc998c27d48d7b06.js",
+    "service-worker.js": "/aksh29/businessapp/service-worker.js",
+    "static/css/main.2f912210.chunk.css.map": "/aksh29/businessapp/static/css/main.2f912210.chunk.css.map",
+    "static/js/2.1e5d13bc.chunk.js.LICENSE.txt": "/aksh29/businessapp/static/js/2.1e5d13bc.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/aksh29/businessapp/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c24cc31.js",
+    "static/js/2.1e5d13bc.chunk.js",
+    "static/css/main.2f912210.chunk.css",
+    "static/js/main.bacdff6c.chunk.js"
+  ]
+}
