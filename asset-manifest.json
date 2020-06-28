@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/aksh29/businessapp/static/css/main.2f912210.chunk.css",
-    "main.js": "/aksh29/businessapp/static/js/main.eef856d4.chunk.js",
-    "main.js.map": "/aksh29/businessapp/static/js/main.eef856d4.chunk.js.map",
-    "runtime-main.js": "/aksh29/businessapp/static/js/runtime-main.4c24cc31.js",
-    "runtime-main.js.map": "/aksh29/businessapp/static/js/runtime-main.4c24cc31.js.map",
-    "static/js/2.1e5d13bc.chunk.js": "/aksh29/businessapp/static/js/2.1e5d13bc.chunk.js",
-    "static/js/2.1e5d13bc.chunk.js.map": "/aksh29/businessapp/static/js/2.1e5d13bc.chunk.js.map",
-    "index.html": "/aksh29/businessapp/index.html",
-    "precache-manifest.218bddb1e498d994a80751241facede0.js": "/aksh29/businessapp/precache-manifest.218bddb1e498d994a80751241facede0.js",
-    "service-worker.js": "/aksh29/businessapp/service-worker.js",
-    "static/css/main.2f912210.chunk.css.map": "/aksh29/businessapp/static/css/main.2f912210.chunk.css.map",
-    "static/js/2.1e5d13bc.chunk.js.LICENSE.txt": "/aksh29/businessapp/static/js/2.1e5d13bc.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/aksh29/businessapp/static/media/logo.5d5d9eef.svg"
+    "main.css": "/businessapp/static/css/main.2f912210.chunk.css",
+    "main.js": "/businessapp/static/js/main.dd98bfda.chunk.js",
+    "main.js.map": "/businessapp/static/js/main.dd98bfda.chunk.js.map",
+    "runtime-main.js": "/businessapp/static/js/runtime-main.aab0637d.js",
+    "runtime-main.js.map": "/businessapp/static/js/runtime-main.aab0637d.js.map",
+    "static/js/2.1e5d13bc.chunk.js": "/businessapp/static/js/2.1e5d13bc.chunk.js",
+    "static/js/2.1e5d13bc.chunk.js.map": "/businessapp/static/js/2.1e5d13bc.chunk.js.map",
+    "index.html": "/businessapp/index.html",
+    "precache-manifest.80077789b53da40e2a9513224bcb4d6c.js": "/businessapp/precache-manifest.80077789b53da40e2a9513224bcb4d6c.js",
+    "service-worker.js": "/businessapp/service-worker.js",
+    "static/css/main.2f912210.chunk.css.map": "/businessapp/static/css/main.2f912210.chunk.css.map",
+    "static/js/2.1e5d13bc.chunk.js.LICENSE.txt": "/businessapp/static/js/2.1e5d13bc.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/businessapp/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4c24cc31.js",
+    "static/js/runtime-main.aab0637d.js",
     "static/js/2.1e5d13bc.chunk.js",
     "static/css/main.2f912210.chunk.css",
-    "static/js/main.eef856d4.chunk.js"
+    "static/js/main.dd98bfda.chunk.js"
   ]
 }
