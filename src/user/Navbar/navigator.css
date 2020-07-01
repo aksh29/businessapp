@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+.App-header {
+    background-color: #282c34;
+    min-height: 14 rem;
+    display: flex;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    top: 0;
+    width: 100%;
+    font-family: 'Manrope', sans-serif;
+  }
+ul {
+  list-style-type: none;
+  margin: 0;
+  right:5%;
+  overflow: hidden;
+  position: absolute;
+  
+}
+
+li {
+ display: inline-block;
+ font-size: 18px;
+ font-weight:200;
+}
+
+li a {
+  display: inherit;
+  font-size: calc(10px + 1vmin);
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+li a:hover:not(.active) {
+  color: #0088a9;
+  text-decoration: none;
+}
+a:visited {
+  
+}
+/* li a:active{
+  text-decoration: none;
+  color: #0088a9;
+  border-bottom: 1px solid rgb(251, 248, 249);
+} */
+    
+
+.nav-icon1{
+  display: none;
+}
+
+.logo{
+    margin:0px;
+    padding: 14px 8%;
+    cursor: pointer;
+}
+
+.menubar{
+  display: none;
+}
+.closebtn{
+  display: none;
+}
+
+@media (max-width: 700px) {
+  ul{
+    display:none;
+  }
+  .menubar{
+    display: inline;
+    margin: 0;
+    right:2%;
+    overflow: hidden;
+    position: absolute;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+}
+      
