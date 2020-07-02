@@ -1,25 +1,17 @@
 import React from 'react';
-import { BrowserRouter as Router, Route , Link , Switch} from 'react-router-dom';
-import Home from '.././Home/home';
-import Men from '.././Mens/mens';
-import Women from '.././Womens/womens';
-import Kid from '.././Kids/kids';
+import {Link} from 'react-router-dom';
 import './navigator.css';
 
-
-
 export default class Navigator extends React.Component {
-   openNav(){
+    openNav = ()=>{
     document.getElementById("mySidenav").style.width = "250px";
     document.getElementById("desktopMenu").style.display = "inherit";
    }
-   closeNav(){
+    closeNav = ()=>{
     document.getElementById("mySidenav").style.width = "0";
    }
     render() {
       return (
-        <Router>
-          <React.Fragment>
           <header className="App-header">
             <div className="logo">E-commerce</div>
             <div className="nav-icon1">
@@ -36,19 +28,6 @@ export default class Navigator extends React.Component {
             </div>
             <span className="menubar" onClick={this.openNav}>&#9776;</span>
           </header>
-          <div>
-            <Switch>  
-            <Route path='/Mens' component={Men}/>
-            <Route path='/Womens' component={Women}/>
-            <Route path='/Kids' component={Kid}/>
-            <Route exactpath='/' component={Home}/>
-            </Switch>
-          </div>
-          </React.Fragment>
-        </Router>
-      
-      
-      
       )
     }
   }

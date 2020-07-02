@@ -1,11 +1,11 @@
 import React from 'react';
-
+import Main from '../../common/Main/main';
 
 export default class Women extends React.Component {
    
     render() {
         return(
-        <div>Womens section</div>
+            <Main><div className='bg-primary'>Womens section</div></Main>  
         )
     }
 }
